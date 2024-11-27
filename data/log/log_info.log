@@ -1,0 +1,658 @@
+24-11-28.00:50:21.789 [main            ] INFO  Application            - Starting Application using Java 17.0.5 on LAPTOP-EN7AFHC7 with PID 18224 (E:\java_works\small-payment-mall-mvc\small-payment-mall-web\target\classes started by HarryKL in E:\java_works\small-payment-mall-mvc)
+24-11-28.00:50:21.791 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-28.00:50:22.343 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-28.00:50:22.346 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-28.00:50:22.368 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-11-28.00:50:22.714 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8090 (http)
+24-11-28.00:50:22.715 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+24-11-28.00:50:22.715 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-28.00:50:22.715 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-28.00:50:22.719 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+24-11-28.00:50:22.726 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+24-11-28.00:50:22.726 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-28.00:50:22.726 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-28.00:50:22.850 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-28.00:50:22.850 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1027 ms
+24-11-28.00:50:22.982 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'top.kangyaocoding.mall.ILoginService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+24-11-28.00:50:22.984 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-11-28.00:50:23.001 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-11-28.00:50:23.016 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'top.kangyaocoding.mall.ILoginService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'top.kangyaocoding.mall.ILoginService' in your configuration.
+
+24-11-28.00:53:02.952 [main            ] INFO  Application            - Starting Application using Java 17.0.5 on LAPTOP-EN7AFHC7 with PID 3052 (E:\java_works\small-payment-mall-mvc\small-payment-mall-web\target\classes started by HarryKL in E:\java_works\small-payment-mall-mvc)
+24-11-28.00:53:02.954 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-28.00:53:03.512 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-28.00:53:03.514 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-28.00:53:03.537 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-11-28.00:53:03.886 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8090 (http)
+24-11-28.00:53:03.887 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+24-11-28.00:53:03.887 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-28.00:53:03.887 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-28.00:53:03.891 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+24-11-28.00:53:03.898 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+24-11-28.00:53:03.898 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-28.00:53:03.898 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-28.00:53:04.029 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-28.00:53:04.029 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1044 ms
+24-11-28.00:53:04.167 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weixinLoginServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.common.cache.Cache<java.lang.String, java.lang.String>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+24-11-28.00:53:04.169 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-11-28.00:53:04.186 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-11-28.00:53:04.201 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.google.common.cache.Cache' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.google.common.cache.Cache' in your configuration.
+
+24-11-28.00:55:24.877 [main            ] INFO  Application            - Starting Application using Java 17.0.5 on LAPTOP-EN7AFHC7 with PID 20076 (E:\java_works\small-payment-mall-mvc\small-payment-mall-web\target\classes started by HarryKL in E:\java_works\small-payment-mall-mvc)
+24-11-28.00:55:24.879 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-28.00:55:25.452 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-28.00:55:25.454 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-28.00:55:25.477 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-11-28.00:55:25.830 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8090 (http)
+24-11-28.00:55:25.831 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+24-11-28.00:55:25.831 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-28.00:55:25.831 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-28.00:55:25.835 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+24-11-28.00:55:25.842 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+24-11-28.00:55:25.842 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-28.00:55:25.842 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-28.00:55:25.964 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-28.00:55:25.964 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1053 ms
+24-11-28.00:55:26.883 [main            ] INFO  Version                - Redisson 3.34.0
+24-11-28.00:55:27.050 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-28.00:55:27.220 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-11-28.00:55:27.270 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-11-28.00:55:27.567 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-28.00:55:27.585 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+24-11-28.00:55:27.595 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8090 (http) with context path ''
+24-11-28.00:55:27.607 [main            ] INFO  Application            - Started Application in 3.078 seconds (JVM running for 3.699)
+24-11-28.00:55:28.070 [RMI TCP Connection(2)-172.29.10.189] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-28.00:55:28.070 [RMI TCP Connection(2)-172.29.10.189] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-28.00:55:28.071 [RMI TCP Connection(2)-172.29.10.189] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-28.00:55:33.244 [http-nio-8090-exec-1] INFO  WeixinPortalController - 微信公众号验签信息开始 [5cc9218b0a10acf9813155f4e3678150c28d4333, 1732726532, 1085220994, 3304478149271084847]
+24-11-28.00:55:33.251 [http-nio-8090-exec-1] INFO  WeixinPortalController - 微信公众号验签结果 check 为：true
+24-11-28.01:01:02.062 [http-nio-8090-exec-2] ERROR LoginController        - 创建微信二维码ticket异常
+java.lang.IllegalArgumentException: Unable to create converter for class top.kangyaocoding.mall.res.WeixinTokenRes
+    for method IWeixinApiService.getToken
+	at retrofit2.Utils.methodError(Utils.java:56)
+	at retrofit2.HttpServiceMethod.createResponseConverter(HttpServiceMethod.java:139)
+	at retrofit2.HttpServiceMethod.parseAnnotations(HttpServiceMethod.java:97)
+	at retrofit2.ServiceMethod.parseAnnotations(ServiceMethod.java:39)
+	at retrofit2.Retrofit.loadServiceMethod(Retrofit.java:232)
+	at retrofit2.Retrofit$1.invoke(Retrofit.java:177)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.getToken(Unknown Source)
+	at top.kangyaocoding.mall.impl.WeixinLoginServiceImpl.createQrCodeTicket(WeixinLoginServiceImpl.java:48)
+	at top.kangyaocoding.mall.controller.LoginController.weixinQrCodeTicket(LoginController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: Could not locate ResponseBody converter for class top.kangyaocoding.mall.res.WeixinTokenRes.
+  Tried:
+   * retrofit2.BuiltInConverters
+   * retrofit2.OptionalConverterFactory
+	at retrofit2.Retrofit.nextResponseBodyConverter(Retrofit.java:425)
+	at retrofit2.Retrofit.responseBodyConverter(Retrofit.java:386)
+	at retrofit2.HttpServiceMethod.createResponseConverter(HttpServiceMethod.java:137)
+	... 61 common frames omitted
+24-11-28.01:03:40.468 [main            ] INFO  Application            - Starting Application using Java 17.0.5 on LAPTOP-EN7AFHC7 with PID 7308 (E:\java_works\small-payment-mall-mvc\small-payment-mall-web\target\classes started by HarryKL in E:\java_works\small-payment-mall-mvc)
+24-11-28.01:03:40.471 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-28.01:03:41.031 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-28.01:03:41.034 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-28.01:03:41.057 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-11-28.01:03:41.406 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8090 (http)
+24-11-28.01:03:41.407 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+24-11-28.01:03:41.407 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-28.01:03:41.407 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-28.01:03:41.411 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+24-11-28.01:03:41.418 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+24-11-28.01:03:41.418 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-28.01:03:41.418 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-28.01:03:41.541 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-28.01:03:41.542 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1041 ms
+24-11-28.01:03:42.450 [main            ] INFO  Version                - Redisson 3.34.0
+24-11-28.01:03:42.615 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-28.01:03:42.782 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-11-28.01:03:42.838 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-11-28.01:03:43.144 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-28.01:03:43.162 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+24-11-28.01:03:43.173 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8090 (http) with context path ''
+24-11-28.01:03:43.184 [main            ] INFO  Application            - Started Application in 3.061 seconds (JVM running for 3.683)
+24-11-28.01:03:43.659 [RMI TCP Connection(1)-172.29.10.189] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-28.01:03:43.659 [RMI TCP Connection(1)-172.29.10.189] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-28.01:03:43.660 [RMI TCP Connection(1)-172.29.10.189] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-28.01:03:51.052 [http-nio-8090-exec-1] ERROR LoginController        - 创建微信二维码ticket异常
+java.lang.IllegalArgumentException: Unable to create converter for class top.kangyaocoding.mall.res.WeixinTokenRes
+    for method IWeixinApiService.getToken
+	at retrofit2.Utils.methodError(Utils.java:56)
+	at retrofit2.HttpServiceMethod.createResponseConverter(HttpServiceMethod.java:139)
+	at retrofit2.HttpServiceMethod.parseAnnotations(HttpServiceMethod.java:97)
+	at retrofit2.ServiceMethod.parseAnnotations(ServiceMethod.java:39)
+	at retrofit2.Retrofit.loadServiceMethod(Retrofit.java:232)
+	at retrofit2.Retrofit$1.invoke(Retrofit.java:177)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.getToken(Unknown Source)
+	at top.kangyaocoding.mall.impl.WeixinLoginServiceImpl.createQrCodeTicket(WeixinLoginServiceImpl.java:48)
+	at top.kangyaocoding.mall.controller.LoginController.weixinQrCodeTicket(LoginController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: Could not locate ResponseBody converter for class top.kangyaocoding.mall.res.WeixinTokenRes.
+  Tried:
+   * retrofit2.BuiltInConverters
+   * retrofit2.OptionalConverterFactory
+	at retrofit2.Retrofit.nextResponseBodyConverter(Retrofit.java:425)
+	at retrofit2.Retrofit.responseBodyConverter(Retrofit.java:386)
+	at retrofit2.HttpServiceMethod.createResponseConverter(HttpServiceMethod.java:137)
+	... 61 common frames omitted
+24-11-28.01:06:47.658 [main            ] INFO  Application            - Starting Application using Java 17.0.5 on LAPTOP-EN7AFHC7 with PID 2800 (E:\java_works\small-payment-mall-mvc\small-payment-mall-web\target\classes started by HarryKL in E:\java_works\small-payment-mall-mvc)
+24-11-28.01:06:47.660 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-28.01:06:48.212 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-28.01:06:48.214 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-28.01:06:48.236 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-11-28.01:06:48.584 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8090 (http)
+24-11-28.01:06:48.585 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+24-11-28.01:06:48.585 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-28.01:06:48.585 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-28.01:06:48.589 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+24-11-28.01:06:48.596 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+24-11-28.01:06:48.596 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-28.01:06:48.596 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-28.01:06:48.718 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-28.01:06:48.719 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1029 ms
+24-11-28.01:06:49.610 [main            ] INFO  Version                - Redisson 3.34.0
+24-11-28.01:06:49.775 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-28.01:06:49.938 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-11-28.01:06:50.012 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-11-28.01:06:50.298 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-28.01:06:50.319 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+24-11-28.01:06:50.329 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8090 (http) with context path ''
+24-11-28.01:06:50.340 [main            ] INFO  Application            - Started Application in 3.025 seconds (JVM running for 3.644)
+24-11-28.01:06:50.858 [RMI TCP Connection(2)-172.29.10.189] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-28.01:06:50.858 [RMI TCP Connection(2)-172.29.10.189] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-28.01:06:50.859 [RMI TCP Connection(2)-172.29.10.189] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-28.01:06:57.115 [http-nio-8090-exec-1] ERROR LoginController        - 创建微信二维码ticket异常
+java.lang.IllegalArgumentException: Unable to create converter for class top.kangyaocoding.mall.res.WeixinTokenRes
+    for method IWeixinApiService.getToken
+	at retrofit2.Utils.methodError(Utils.java:54)
+	at retrofit2.HttpServiceMethod.createResponseConverter(HttpServiceMethod.java:126)
+	at retrofit2.HttpServiceMethod.parseAnnotations(HttpServiceMethod.java:85)
+	at retrofit2.ServiceMethod.parseAnnotations(ServiceMethod.java:39)
+	at retrofit2.Retrofit.loadServiceMethod(Retrofit.java:202)
+	at retrofit2.Retrofit$1.invoke(Retrofit.java:160)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.getToken(Unknown Source)
+	at top.kangyaocoding.mall.impl.WeixinLoginServiceImpl.createQrCodeTicket(WeixinLoginServiceImpl.java:48)
+	at top.kangyaocoding.mall.controller.LoginController.weixinQrCodeTicket(LoginController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: Could not locate ResponseBody converter for class top.kangyaocoding.mall.res.WeixinTokenRes.
+  Tried:
+   * retrofit2.BuiltInConverters
+   * retrofit2.OptionalConverterFactory
+	at retrofit2.Retrofit.nextResponseBodyConverter(Retrofit.java:384)
+	at retrofit2.Retrofit.responseBodyConverter(Retrofit.java:345)
+	at retrofit2.HttpServiceMethod.createResponseConverter(HttpServiceMethod.java:124)
+	... 61 common frames omitted
+24-11-28.01:08:32.573 [main            ] INFO  Application            - Starting Application using Java 17.0.5 on LAPTOP-EN7AFHC7 with PID 11952 (E:\java_works\small-payment-mall-mvc\small-payment-mall-web\target\classes started by HarryKL in E:\java_works\small-payment-mall-mvc)
+24-11-28.01:08:32.575 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-28.01:08:33.136 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-28.01:08:33.138 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-28.01:08:33.161 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-11-28.01:08:33.509 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8090 (http)
+24-11-28.01:08:33.510 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+24-11-28.01:08:33.510 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-28.01:08:33.510 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-28.01:08:33.514 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+24-11-28.01:08:33.521 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+24-11-28.01:08:33.521 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-28.01:08:33.522 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-28.01:08:33.650 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-28.01:08:33.650 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1045 ms
+24-11-28.01:08:34.548 [main            ] INFO  Version                - Redisson 3.34.0
+24-11-28.01:08:34.714 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-28.01:08:34.879 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-11-28.01:08:34.952 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-11-28.01:08:35.248 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-28.01:08:35.266 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+24-11-28.01:08:35.276 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8090 (http) with context path ''
+24-11-28.01:08:35.289 [main            ] INFO  Application            - Started Application in 3.064 seconds (JVM running for 3.681)
+24-11-28.01:08:35.742 [RMI TCP Connection(1)-172.29.10.189] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-28.01:08:35.742 [RMI TCP Connection(1)-172.29.10.189] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-28.01:08:35.743 [RMI TCP Connection(1)-172.29.10.189] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-28.01:08:41.154 [http-nio-8090-exec-1] ERROR LoginController        - 创建微信二维码ticket异常
+java.lang.IllegalArgumentException: Non-body HTTP method cannot contain @Body.
+    for method IWeixinApiService.createQrCode
+	at retrofit2.Utils.methodError(Utils.java:54)
+	at retrofit2.Utils.methodError(Utils.java:43)
+	at retrofit2.RequestFactory$Builder.build(RequestFactory.java:213)
+	at retrofit2.RequestFactory.parseAnnotations(RequestFactory.java:67)
+	at retrofit2.ServiceMethod.parseAnnotations(ServiceMethod.java:26)
+	at retrofit2.Retrofit.loadServiceMethod(Retrofit.java:202)
+	at retrofit2.Retrofit$1.invoke(Retrofit.java:160)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.createQrCode(Unknown Source)
+	at top.kangyaocoding.mall.impl.WeixinLoginServiceImpl.createQrCodeTicket(WeixinLoginServiceImpl.java:66)
+	at top.kangyaocoding.mall.controller.LoginController.weixinQrCodeTicket(LoginController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+24-11-28.01:10:13.324 [main            ] INFO  Application            - Starting Application using Java 17.0.5 on LAPTOP-EN7AFHC7 with PID 17884 (E:\java_works\small-payment-mall-mvc\small-payment-mall-web\target\classes started by HarryKL in E:\java_works\small-payment-mall-mvc)
+24-11-28.01:10:13.326 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-28.01:10:13.886 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-28.01:10:13.888 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-28.01:10:13.911 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-11-28.01:10:14.268 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8090 (http)
+24-11-28.01:10:14.268 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+24-11-28.01:10:14.268 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-28.01:10:14.268 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-28.01:10:14.273 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+24-11-28.01:10:14.280 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+24-11-28.01:10:14.280 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-28.01:10:14.281 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-28.01:10:14.406 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-28.01:10:14.406 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1050 ms
+24-11-28.01:10:15.366 [main            ] INFO  Version                - Redisson 3.34.0
+24-11-28.01:10:15.543 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-28.01:10:15.718 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-11-28.01:10:15.771 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-11-28.01:10:16.085 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-28.01:10:16.103 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+24-11-28.01:10:16.114 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8090 (http) with context path ''
+24-11-28.01:10:16.125 [main            ] INFO  Application            - Started Application in 3.145 seconds (JVM running for 3.757)
+24-11-28.01:10:16.497 [RMI TCP Connection(3)-172.29.10.189] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-28.01:10:16.498 [RMI TCP Connection(3)-172.29.10.189] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-28.01:10:16.499 [RMI TCP Connection(3)-172.29.10.189] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-28.01:10:18.346 [http-nio-8090-exec-1] ERROR LoginController        - 创建微信二维码ticket异常
+java.lang.IllegalArgumentException: Non-body HTTP method cannot contain @Body.
+    for method IWeixinApiService.createQrCode
+	at retrofit2.Utils.methodError(Utils.java:54)
+	at retrofit2.Utils.methodError(Utils.java:43)
+	at retrofit2.RequestFactory$Builder.build(RequestFactory.java:213)
+	at retrofit2.RequestFactory.parseAnnotations(RequestFactory.java:67)
+	at retrofit2.ServiceMethod.parseAnnotations(ServiceMethod.java:26)
+	at retrofit2.Retrofit.loadServiceMethod(Retrofit.java:202)
+	at retrofit2.Retrofit$1.invoke(Retrofit.java:160)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.createQrCode(Unknown Source)
+	at top.kangyaocoding.mall.impl.WeixinLoginServiceImpl.createQrCodeTicket(WeixinLoginServiceImpl.java:66)
+	at top.kangyaocoding.mall.controller.LoginController.weixinQrCodeTicket(LoginController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+24-11-28.01:11:49.125 [main            ] INFO  Application            - Starting Application using Java 17.0.5 on LAPTOP-EN7AFHC7 with PID 2384 (E:\java_works\small-payment-mall-mvc\small-payment-mall-web\target\classes started by HarryKL in E:\java_works\small-payment-mall-mvc)
+24-11-28.01:11:49.126 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-28.01:11:49.679 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-28.01:11:49.682 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-28.01:11:49.704 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-11-28.01:11:50.058 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8090 (http)
+24-11-28.01:11:50.059 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+24-11-28.01:11:50.059 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-28.01:11:50.059 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-28.01:11:50.063 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+24-11-28.01:11:50.070 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+24-11-28.01:11:50.071 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-28.01:11:50.071 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-28.01:11:50.193 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-28.01:11:50.193 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1037 ms
+24-11-28.01:11:51.123 [main            ] INFO  Version                - Redisson 3.34.0
+24-11-28.01:11:51.286 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-28.01:11:51.451 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-11-28.01:11:51.502 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-11-28.01:11:51.803 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-28.01:11:51.821 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+24-11-28.01:11:51.832 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8090 (http) with context path ''
+24-11-28.01:11:51.844 [main            ] INFO  Application            - Started Application in 3.061 seconds (JVM running for 3.685)
+24-11-28.01:11:52.298 [RMI TCP Connection(2)-172.29.10.189] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-28.01:11:52.298 [RMI TCP Connection(2)-172.29.10.189] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-28.01:11:52.300 [RMI TCP Connection(2)-172.29.10.189] INFO  DispatcherServlet      - Completed initialization in 2 ms
+24-11-28.01:11:54.728 [http-nio-8090-exec-1] INFO  LoginController        - 创建微信二维码ticket为：gQEl8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybHh1WUVYLVJmeEYxbHE3YnhEMS0AAgTaUkdnAwSA9AMA
+24-11-28.01:12:06.930 [http-nio-8090-exec-2] INFO  LoginController        - 扫码登录结果为 ticket：gQEl8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybHh1WUVYLVJmeEYxbHE3YnhEMS0AAgTaUkdnAwSA9AMA，openidToken：null
+24-11-28.01:12:28.212 [http-nio-8090-exec-3] INFO  WeixinPortalController - 微信公众号接收信息开始 [请求体：<xml><ToUserName><![CDATA[gh_ed10d3ef36ef]]></ToUserName>
+<FromUserName><![CDATA[ovrXh6XQqKPHUQIaEQLF9_EB1cNk]]></FromUserName>
+<CreateTime>1732727547</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[100601]]></EventKey>
+<Ticket><![CDATA[gQEl8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybHh1WUVYLVJmeEYxbHE3YnhEMS0AAgTaUkdnAwSA9AMA]]></Ticket>
+</xml>, openid：ovrXh6XQqKPHUQIaEQLF9_EB1cNk]
+24-11-28.01:24:59.134 [http-nio-8090-exec-6] INFO  LoginController        - 扫码登录结果为 ticket：gQEl8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybHh1WUVYLVJmeEYxbHE3YnhEMS0AAgTaUkdnAwSA9AMA，openidToken：null
+24-11-28.01:25:08.637 [http-nio-8090-exec-7] INFO  LoginController        - 扫码登录结果为 ticket：gQEl8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybHh1WUVYLVJmeEYxbHE3YnhEMS0AAgTaUkdnAwSA9AMA，openidToken：null
+24-11-28.01:25:23.827 [http-nio-8090-exec-8] INFO  WeixinPortalController - 微信公众号接收信息开始 [请求体：<xml><ToUserName><![CDATA[gh_ed10d3ef36ef]]></ToUserName>
+<FromUserName><![CDATA[ovrXh6XQqKPHUQIaEQLF9_EB1cNk]]></FromUserName>
+<CreateTime>1732728323</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[100601]]></EventKey>
+<Ticket><![CDATA[gQEl8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybHh1WUVYLVJmeEYxbHE3YnhEMS0AAgTaUkdnAwSA9AMA]]></Ticket>
+</xml>, openid：ovrXh6XQqKPHUQIaEQLF9_EB1cNk]
+24-11-28.01:25:29.514 [http-nio-8090-exec-10] INFO  LoginController        - 扫码登录结果为 ticket：gQEl8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybHh1WUVYLVJmeEYxbHE3YnhEMS0AAgTaUkdnAwSA9AMA，openidToken：null
+24-11-28.01:25:46.737 [http-nio-8090-exec-1] INFO  LoginController        - 扫码登录结果为 ticket：gQEl8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybHh1WUVYLVJmeEYxbHE3YnhEMS0AAgTaUkdnAwSA9AMA，openidToken：null
+24-11-28.01:31:03.147 [http-nio-8090-exec-3] INFO  LoginController        - 创建微信二维码ticket为：gQHB7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyMlpzdUU1LVJmeEYxbm5iYnhEMUYAAgRXV0dnAwSA9AMA
+24-11-28.01:31:32.035 [http-nio-8090-exec-4] INFO  LoginController        - 扫码登录结果为 ticket：gQEl8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybHh1WUVYLVJmeEYxbHE3YnhEMS0AAgTaUkdnAwSA9AMA，openidToken：null
+24-11-28.01:31:45.400 [http-nio-8090-exec-5] INFO  LoginController        - 扫码登录结果为 ticket：gQHB7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyMlpzdUU1LVJmeEYxbm5iYnhEMUYAAgRXV0dnAwSA9AMA，openidToken：null
+24-11-28.01:31:57.355 [http-nio-8090-exec-6] INFO  WeixinPortalController - 微信公众号接收信息开始 [请求体：<xml><ToUserName><![CDATA[gh_ed10d3ef36ef]]></ToUserName>
+<FromUserName><![CDATA[ovrXh6XQqKPHUQIaEQLF9_EB1cNk]]></FromUserName>
+<CreateTime>1732728717</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[100601]]></EventKey>
+<Ticket><![CDATA[gQHB7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyMlpzdUU1LVJmeEYxbm5iYnhEMUYAAgRXV0dnAwSA9AMA]]></Ticket>
+</xml>, openid：ovrXh6XQqKPHUQIaEQLF9_EB1cNk]
+24-11-28.01:32:01.710 [http-nio-8090-exec-8] INFO  LoginController        - 扫码登录结果为 ticket：gQHB7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyMlpzdUU1LVJmeEYxbm5iYnhEMUYAAgRXV0dnAwSA9AMA，openidToken：null
+24-11-28.01:32:28.893 [http-nio-8090-exec-10] INFO  LoginController        - 扫码登录结果为 ticket：gQHB7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyMlpzdUU1LVJmeEYxbm5iYnhEMUYAAgRXV0dnAwSA9AMA，openidToken：null
+24-11-28.01:32:29.969 [http-nio-8090-exec-1] INFO  LoginController        - 扫码登录结果为 ticket：gQHB7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyMlpzdUU1LVJmeEYxbm5iYnhEMUYAAgRXV0dnAwSA9AMA，openidToken：null
+24-11-28.01:34:40.981 [main            ] INFO  Application            - Starting Application using Java 17.0.5 on LAPTOP-EN7AFHC7 with PID 19184 (E:\java_works\small-payment-mall-mvc\small-payment-mall-web\target\classes started by HarryKL in E:\java_works\small-payment-mall-mvc)
+24-11-28.01:34:40.983 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-28.01:34:41.535 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-28.01:34:41.537 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-28.01:34:41.560 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-11-28.01:34:41.907 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8090 (http)
+24-11-28.01:34:41.908 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+24-11-28.01:34:41.908 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-11-28.01:34:41.908 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-11-28.01:34:41.912 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+24-11-28.01:34:41.919 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+24-11-28.01:34:41.920 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-28.01:34:41.920 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-28.01:34:42.043 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-28.01:34:42.043 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1030 ms
+24-11-28.01:34:42.940 [main            ] INFO  Version                - Redisson 3.34.0
+24-11-28.01:34:43.105 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-28.01:34:43.269 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-11-28.01:34:43.327 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-11-28.01:34:43.624 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-11-28.01:34:43.642 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+24-11-28.01:34:43.653 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8090 (http) with context path ''
+24-11-28.01:34:43.665 [main            ] INFO  Application            - Started Application in 3.024 seconds (JVM running for 3.628)
+24-11-28.01:34:44.159 [RMI TCP Connection(3)-172.29.10.189] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-28.01:34:44.160 [RMI TCP Connection(3)-172.29.10.189] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-28.01:34:44.161 [RMI TCP Connection(3)-172.29.10.189] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-28.01:34:51.467 [http-nio-8090-exec-1] INFO  LoginController        - 创建微信二维码ticket为：gQHa7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyYmZZU0Y3LVJmeEYxbVhjYmhEMWsAAgQ7WEdnAwSA9AMA
+24-11-28.01:34:59.937 [http-nio-8090-exec-2] INFO  LoginController        - 扫码登录结果为 ticket：gQHa7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyYmZZU0Y3LVJmeEYxbVhjYmhEMWsAAgQ7WEdnAwSA9AMA，openidToken：null
+24-11-28.01:35:17.399 [http-nio-8090-exec-3] INFO  WeixinPortalController - 微信公众号接收信息开始 [请求体：<xml><ToUserName><![CDATA[gh_ed10d3ef36ef]]></ToUserName>
+<FromUserName><![CDATA[ovrXh6XQqKPHUQIaEQLF9_EB1cNk]]></FromUserName>
+<CreateTime>1732728917</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[100601]]></EventKey>
+<Ticket><![CDATA[gQHa7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyYmZZU0Y3LVJmeEYxbVhjYmhEMWsAAgQ7WEdnAwSA9AMA]]></Ticket>
+</xml>, openid：ovrXh6XQqKPHUQIaEQLF9_EB1cNk]
+24-11-28.01:35:17.534 [http-nio-8090-exec-3] INFO  WeixinLoginServiceImpl - 发送模板消息：top.kangyaocoding.mall.vo.WeixinTemplateMessageVO@acc116a
+24-11-28.01:35:44.881 [http-nio-8090-exec-5] INFO  LoginController        - 扫码登录结果为 ticket：gQHa7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyYmZZU0Y3LVJmeEYxbVhjYmhEMWsAAgQ7WEdnAwSA9AMA，openidToken：null
